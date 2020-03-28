@@ -1,23 +1,19 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Michael Lin</strong>
+description: PhD Student in Robotics at Stanford University.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_pic.jpg
 
-news: true
+news: false
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student at Stanford University working with Prof. Mark Cutkosky. My research interest is in robot grasping and in-hand manipulation. Particularly, I am interested in making robots more capable and usable in home settings by leveraging contact with the environment.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked as a Robotics System Engineer at Flexiv Robotics making torque-controlled robot arm for industrial automation. I finished my M.S. in Mechanical Engineering in Stanford and B.S. in Electrical Engineering and Computer Science at UC Berkeley.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm originally from Chile, from a small city in the north called Iquique (I've been told it looks like <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q=iquique+cerro+dragon" target="blank">Tatooine</a>). Outside of work I like to spend my free time going on fishing trips, baking bread and getting some fresh air on a hiking trail..
