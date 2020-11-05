@@ -1,130 +1,83 @@
-# -----------------------------------------------------------------------------
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-# -----------------------------------------------------------------------------
-title: Michael Lin
-email: mlinyang@stanford.edu
-description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Michael A. Lin
+email: "mlinyang@stanford.edu"
+twitter_username: "michaelv03"
+address1: 'Stanford, CA, 94305'
+address2: ''
+description: "Personal webpage for Michael A. Lin"
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://michaelalin.com" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "michaellin.github.io"
 
-url:  # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
-
-# -----------------------------------------------------------------------------
-# Open Graph
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# To achieve this, change serve_og_meta to true and then provide the URL of the
-# preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-github_username: michaellin # your GitHub user name
-twitter_username: michaelv03 # your Twitter handle
-linkedin_username: michaellinyang # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-
-contact_note: >
-  Best way to reach me is through e-mail.
-
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: simple blog about engineering and robotics
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-news_limit: 5
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
+# Outputting
+permalink:     /:title.html
+# relative_permalinks: false
 
 # Build settings
-markdown: kramdown
-highlighter: pygments
-
-# Includes & excludes
-include: ['_pages']
-exclude: [vendor]
-
-# Plug-ins
 plugins:
-    - jekyll-email-protect
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
 
-# Jekyll-Scholar
+# plugins: ['jekyll/scholar']
+
+# A list of the pages to display in the navigation bar
+header_pages:
+  - research/index.md
+  - publications/index.md
+  - curriculum/index.md
+  - projects/index.md
+  - about/index.md
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
+
+# chicago-fullnote-bibliography
+# apa
 scholar:
-
-  last_name: Lin
-
-  style: apa
+  style: _bibliography/custom-acm.csl
+  #acm-sigchi-proceedings.csl 
+  #acm-sig-proceedings-long-author-list
   locale: en
 
   sort_by: year
   order: descending
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bibtemplate
+  repository: /publications
 
   replace_strings: true
-  join_strings: true
+  join_strings:    true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  use_raw_bibtex_entry: false
+
+  # details_dir:    bibliography
+  # details_layout: bibtex.html
+  # details_link:   Details
 
   query: "@*"
 
-# -----------------------------------------------------------------------------
-# Other settings
-# -----------------------------------------------------------------------------
-jquery_version: "1.12.4"
-katex_version: "0.9.0"
-anchorjs_version: "3.2.2"

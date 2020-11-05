@@ -1,23 +1,17 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+ <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
-
-  {% if site.serve_og_meta %}
-    <meta property="og:site_name" content="{{ site.description }}" />
-    <meta property="og:type" content="object" />
-    <meta property="og:title" content="{{ site.name }}" />
-    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-    <meta property="og:description" content="{{ page.title }}" />
-    <meta property="og:image"
-          content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
-  {% endif %}
-
-  <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  <link rel="icon" 
+      type="image/png" 
+      href="{{ "/images/favicon/icon.ico" | relative_url }}">
+  <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
 </head>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article>
+
+	<section>
+		<div class="container">
+				<div class="row pb-3">
+					<h1 class="col-sm-12 intro">
+					{{ page.lead_text }}
+					</h1>
+				</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-7 text-justify">
+					
+
+					{{ content }}
+				
+                <p>
+                <u>Contact:</u><br> 
+                <a href="mailto:mlinyang@stanford.edu" target="_top" style="text-decoration: none">{{ site.email }}<a>
+               	<br> 
+               	{% include github-button.html %}
+               	<br>
+                {% include googleScholar-button.html %}
+	            <br> 
+	            {% if site.twitter_username %}
+	              {% include twitter-follow-button.html %}
+	            {% endif%}
+                </p>
+
+				</div>
+
+				<div class="col-sm-12 col-md-5">
+					<p>
+					<img src="{{ site.baseurl }}/images/profile_pic.jpg" 
+						class="img-fluid mx-auto d-block" 
+						id="profile"
+						alt="A man smiling, black hair, wearing jacket and blue lake in background.">
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h2 class="big_top_padding">Latest Research</h2>
+		{% include research-gallery.html %}
+	</section>
+
+
+</article>
+
+
+
+
+
+

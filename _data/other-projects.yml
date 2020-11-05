@@ -1,0 +1,56 @@
+-   title: "Physical Manipulation of Virtual Holograms Using Proxies"
+    date: "Spring 2017"
+    description: >-
+        CS 231A Computer Vision course project. Made a probabilistic 
+        Bayesian model to process RGB-D camera frames and find the object 
+        most similar to a virtual 3D model. The goal was to use this 
+        method in Augmented Reality such that a uesr can find an object 
+        in his/her surroundings of similar shape to a hologram and use it as 
+        proxy to manipulate the holograms pose.
+    img: 'physicalProxies_main.jpg'
+    alt: 'lightsaber overlayed over a can of coke.'
+    webpage: 'physicalProxies/Lin-Siu_physicalProxies.pdf'
+    folder: physicalProxies
+
+-   title: "Path Planning for Insertion of a Bevel-Tip Needle"
+    date: 'Winter 2016'
+    description: >-
+        CS 238  Decision Making Under Uncertainty course project. 
+        Path planning for biopsy needle insertion through unstructured tissue 
+        using Partially Observable Monte Carlo Planning (POMCP).
+    img: 'CS238Thumbnail.png'
+    alt: 'A plot showing a generated needle insertion path that avoids obstacles to reach a goal tip position'
+    webpage: 'decisionMaking/Path_Planning_for_Insertion_of_a_Bevel_Tip_Needle'
+    folder: decisionMaking
+
+-   title: "TouchMusic"
+    date: "Spring 2015"
+    description: >-
+        The TouchMusic glove is a wearable gadget that enables a 
+        music lover to physically experience their favorite songs. 
+        The glove does this by decoding a song's rhythm and melody to 
+        construct patterns to vibrate into the hand.
+    img: 'touchmusic_main.jpg'
+    alt: >-
+        TouchMusic glove. White color with coin cell vibration motor and LEDs sewed on it.
+    folder: touchmusic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

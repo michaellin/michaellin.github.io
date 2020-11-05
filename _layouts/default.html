@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  {%- include head.html -%}
 
   <body>
 
-    {% include header.html %}
+    {%- include header.html -%}
 
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="py-5">
+      <div class="container page-content">
+          {{ content }}
       </div>
     </div>
 
-    {% include footer.html %}
+    {%- include footer.html -%}
 
-    {% include hemline.html %}
+    <script src="{{ "/assets/javascript/highlightAuthor.js" | relative_url }}"></script>
 
   </body>
 

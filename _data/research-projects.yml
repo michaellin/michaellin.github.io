@@ -1,0 +1,47 @@
+-   title: 'Exploratory Hand: Leveraging Safe Contact to Facilitate Manipulation in Cluttered Spaces'
+    authors: 'Michael A. Lin, Rachel Thomasson, Gabriela Uribe, Hojung Choi and Mark R. Cutkosky'
+    description: >-
+        We present a new gripper and exploration approach
+        that uses an exploratory finger with very low reflected
+        inertia for probing and then grasping objects. Equipped with
+        sensing and force control, the finger allows a robot to identify
+        object properties and locations for a secure grasp without
+        moving very slowly or knocking things over. Employing the finger
+        with robot force/torque and position sensing, the robot can
+        locate contacts using contact normal particle filtering. Adding
+        tactile sensing and finger force control permits approximately
+        4x faster object localization.
+    folder: 'lin2021exploratory'   #should match bibtex key
+    # webpage: 'http://shape.stanford.edu/research/shapeCAD/'
+    # pdf: true
+    # video: 'https://youtu.be/XK8Zyi42Cnw'
+    readmore: false
+    img: 'exploratoryHand.gif'
+    alt: >-
+        A GIF image showing a robot gripper moving inside a cabinet and making contact with four spice jars quickly,
+        and then grasping one of the spice jars.
+
+
+-   title: 'A Stretchable Tactile Sleeve for Reaching into Cluttered Spaces'
+    authors: 'Alexander M. Gruebele, Michael A. Lin, Dane Brouwer, Shenli Yuan, Andrew Zerbe and Mark R. Cutkosky'
+    description: >-
+        A highly conformable stretchable sensory
+        skin made entirely of soft components. The skin uses
+        pneumatic taxels and stretchable channels to conduct pressure
+        signals to off-board MEMs pressure sensors. The skin is able
+        to resolve forces down to 0.01N and responds to vibrations
+        up to 200 Hz. We apply the skin to a 2 degree-of-freedom robotic
+        wrist with intersecting axes for manipulation in constrained
+        spaces, and show that it has sufficient sensitivity and bandwidth
+        to detect the onset of sliding as the robot contacts objects. We
+        demonstrate the skin in object acquisition tasks in a tightly
+        constrained environment for which extraneous contacts are unavoidable.
+    folder: 'gruebele2021bubble'   #should match bibtex key
+    # webpage: 'http://shape.stanford.edu/research/shapeCAD/'
+    # pdf: true
+    # video: 'https://youtu.be/XK8Zyi42Cnw'
+    readmore: false
+    img: 'demoBubbleWrist.GIF'
+    alt: >-
+        A robot arm with a custom designed 2-DOF wrist that wears a white sleeve with soft pneumatic sensors. The robot is
+        reaching into a fridge drawer to retrieve a pear.

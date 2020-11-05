@@ -1,7 +1,5 @@
+_drafts/
 _site
 .sass-cache
-.jekyll-metadata
-.DS_store
-.ruby-version
-Gemfile.lock
-
+.DS_Store
+*.swp
