@@ -3,23 +3,20 @@ layout: page
 title: About
 ---
 
-I am a PhD Student at Stanford University, part of [shape lab](http://shape.stanford.edu) and the [Stanford HCI Group](https://hci.stanford.edu/). My [research interests](research/) are primarily in the fields of Human-Computer Interaction and Accessibility. I am interested in the design of physical interfaces that leverage multimodal perception to make spatial information more accessible for people who are blind. In particular, I am interested in furthering accessibility in three application areas: design tools, collaboration tools, and information visualization. I love design and making things, and I hope my work can help empower others in the same way it inspires me.
+I am a PhD student at Stanford University working with Mark Cutkosky. [research](research/) how robots can use the sense of touch to execute tasks more effectively in unstructured settings such as our homes. I develop robots equipped with tactile sensing that can safely and quickly make contact with objects and leverage this contact information for grasping or exploration of objects. 
 
-Previously, I completed my M.S. in Mechanical Engineering also at Stanford and my B.S. in [Biomedical Engineering at Georgia Tech](https://bme.gatech.edu) with a minor in Computer Science. 
+I am part of the [Biomimetric and Dexterous Manipulation Lab](http://bdml.stanford.edu/), advised by Prof. Mark Cutkosky. Prior to my PhD, I was a Robotics System Engineer at [Flexiv Robotics Inc.](https://www.flexiv.com) developing the mechatronics and controls of a 7 degrees-of-freedom torque-controlled robot arm for industrial task automation. I completed my undergraduate in Electrical Engineering and Computer Science at [UC Berkeley](https://eecs.berkeley.edu/) with a focus in mechatronics and signals and systems.
 
-Three things I enjoy outside academics:
-- my home in Panama
-- the ocean
-- outdoors hiking
+I'm originally from Chile, from a small city in the north called Iquique (I've been told it looks like Tatooine). Outside of work I like to spend my free time going on fishing trips, baking bread and getting some fresh air on a hiking trail..
 
 <div class="row mt-5 mb-5">
 	<div class="col-sm-12 col-md-4 pb-4 px-4">
 		<div class="about-img">
 			<figure>
-				<img src="panama.png" 
+				<img src="iquique.jpg" 
 			     class="img-thumbnail img-fluid" 
-			     alt="Colorful Spanish style houses with outdoors balconies facing an old brick road.">
-			     <figcaption><small>Casco Viejo, Panamá, Panamá</small></figcaption>
+			     alt="A city next to sand dunes.">
+			     <figcaption><small>Dunas de Cerro Dragon, Iquique, Chile</small></figcaption>
 			</figure>
 		</div>
 	</div>
@@ -27,21 +24,10 @@ Three things I enjoy outside academics:
 	<div class="col-sm-12 col-md-4 pb-4 px-4">
 		<div class="about-img">
 			<figure>
-				<img src="ocean.png" 
+				<img src="fishing.jpg" 
 			     class="img-thumbnail img-fluid" 
-			     alt="Sunset facing the ocean making the water and sky colors have orange and pink hues. In the foreground there is the silhouette of a couple each carrying surfboards.">
-			     <figcaption><small>Playa Venao, Los Santos, Panamá</small></figcaption>
-			</figure>
-		</div>
-	</div>
-
-	<div class="col-sm-12 col-md-4 pb-4 px-4">
-		<div class="about-img">
-			<figure>
-				<img src="hiking.png" 
-			     class="img-thumbnail img-fluid" 
-			     alt="Two tall granite mountains in the background, clear blue skies with white clouds, and a lake with a reflection of the mountains in the foreground.">
-			     <figcaption><small>Yosemite, California, USA</small></figcaption>
+			     alt="Four people holding yellowtail tuna standing in front of a fishing boat">
+			     <figcaption><small>Pedasí, Los Santos, Panamá</small></figcaption>
 			</figure>
 		</div>
 	</div>
