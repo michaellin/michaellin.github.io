@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-My research interests are primarily in the fields of Human-Computer Interaction and Accessibility. Through a combination of iterative prototyping and human centered design, I am developing workflows to support spatial information access for people who are blind. Through more controlled studies, I look to understand human perception to inform the design of these new interfaces.
+My research interests are primarily in the fields of Robotics Grasping and Manipulation. I am interested in designing and integrating robots and tactile sensors to leverage the sense of touch and perform tasks more effectively. I believe robots will be useful in our homes to assist us in our every day tasks.
 
 ### [See a complete list of my publications]({{site.baseurl}}/publications/)
 
