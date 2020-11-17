@@ -90,7 +90,7 @@ Pointer-Generator Networks"
     description: >-
         Course: EE128 Feedback Control Systems. 
         This course covered topics such as root locus, Bode and Nyquist plot, Laplace transforms, State-space control and LQR. The labs had fun components such as designing a PID controller for a mini mag-lev system and a non-linear controller to balance an inverted pendulum. 
-    img: 'inverted_pendulum.jpg'
+    img: 'inverted_pendulum.png'
     readmore: false
     video: 'https://www.youtube.com/watch?v=6MEfrPqvptA'
     alt: >-
