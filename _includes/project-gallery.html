@@ -5,7 +5,7 @@
 	<!-- Create two columns rows -->
 	<div class="row project mt-5 mb-5">
 
-			<div class="col-sm-12 col-md-4">
+			<div class="col-sm-12 col-md-5">
 				<div class="project_img">
 					<img src="{{ site.baseurl }}/projects/{{ project.folder }}/{{ project.img }}" 
 					class="img-thumbnail img-fluid" 
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 
-			<div class="col-sm-12 	col-md-8">
+			<div class="col-sm-12 	col-md-7">
 				{% if project.date %}
 				<h2 class="project_name">{{ project.title }}<small class="project_name"> ({{ project.date }})</small></h2>
 				{% else %}
@@ -41,7 +41,7 @@
 							aria-label="Read more about {{ project.title }}">
 							read more >>
 						</a></li>
-						{% elsif project.folder %}
+						{% elsif project.folder and project.readmore != false %}
 						<li><a href="{{ site.baseurl }}/projects/{{ project.folder }}/" 
 							title="Read more about {{ project.title }}"
 							aria-label="Read more about {{ project.title }}">

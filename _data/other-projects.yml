@@ -1,7 +1,21 @@
+-   title: "Natural Language Processing: More Abstractive Summarization with
+Pointer-Generator Networks"
+    date: "Spring 2017"
+    description: >-
+        Course: CS224N Natural Language Processing with Deep Learning.
+        We investigate how to improve on existing neural network approaches to perform abstractive text summarization. One particular challenge 
+        is that handling of out-of-vocabulary words, especially with the use of pointer generator networks, causes the network to copy words and sentences 
+        from the input excessively resulting in less abstractiveness (i.e. generation of novel text). We formulate a new training method that penalizes on word copying 
+        and the resulting model produces significantly more novel n-grams (at least 30% increase) than the baseline model while having comparable performance in terms 
+        of ROUGE scores.
+    img: 'pointer-network.png'
+    alt: 'diagrams showing neural network structure for a text summarization algorithm.'
+    webpage: 'cs224n/CS224N_FinalProject.pdf'
+    folder: cs224n
 -   title: "Physical Manipulation of Virtual Holograms Using Proxies"
     date: "Spring 2017"
     description: >-
-        CS 231A Computer Vision course project. Made a probabilistic 
+        Course: CS 231A Computer Vision course project. Made a probabilistic 
         Bayesian model to process RGB-D camera frames and find the object 
         most similar to a virtual 3D model. The goal was to use this 
         method in Augmented Reality such that a uesr can find an object 
@@ -15,18 +29,44 @@
 -   title: "Path Planning for Insertion of a Bevel-Tip Needle"
     date: 'Winter 2016'
     description: >-
-        CS 238  Decision Making Under Uncertainty course project. 
+        Course: CS 238  Decision Making Under Uncertainty course project. 
         Path planning for biopsy needle insertion through unstructured tissue 
         using Partially Observable Monte Carlo Planning (POMCP).
     img: 'CS238Thumbnail.png'
     alt: 'A plot showing a generated needle insertion path that avoids obstacles to reach a goal tip position'
     webpage: 'decisionMaking/Path_Planning_for_Insertion_of_a_Bevel_Tip_Needle'
     folder: decisionMaking
-
+-   title:  "Smart Hovercraft"
+    date: 'Spring 2016'
+    description: >-
+        Course: ME 218C Smart Product Design.
+        Designed a remote-controlled hovercraft to compete in the course's final tournament. The goal of the tournament was to drive your hovercraft around collecting ping-pong balls and throwing them into the opponents goal. A bonus of the project was to design the controller such that the player looked silly when sending commands.
+    img: 'me218c_hovercraft.jpg'
+    alt: 'A picture of a hovercraft that looks like a pirate ship.'
+    webpage: 'https://landlobbyer.weebly.com/'
+    folder: me218c
+-   title:  "Smart Autonomous Car"
+    date: 'Winter 2016'
+    description: >-
+        Course: ME 218B Smart Product Design.
+        Designed a smart mobile robot to navigate through a field using electromagnetic sensors and race the opponent in a zone-capture game. Each team's car had to go to map coordinates and send a RF request to capture the zone and had the option to shoot a ball to a bucket to disable the opponent.
+    img: 'ME218B.jpg'
+    alt: 'A picture of a smart mobile robot'
+    webpage: 'http://jedimasta.weebly.com/'
+    folder: me218b
+-   title:  "Smart Arcade Game"
+    date: 'Fall 2015'
+    description: >-
+        Course: ME 218A Smart Product Design.
+        Designed a two-player arcade game where players interact with different electro-mechanical interfaces and worked together to score points and "stop the leak". One player turned a wrench in a specified pattern and another player moved a bucket to catch the water drops.
+    img: 'ME218a.png'
+    alt: 'A picture of two man playing an arcade game'
+    webpage: 'http://stopthedamleak.weebly.com/'
+    folder: me218a
 -   title: "TouchMusic"
     date: "Spring 2015"
     description: >-
-        The TouchMusic glove is a wearable gadget that enables a 
+        Hackathon: LAHacks 2015. The TouchMusic glove is a wearable gadget that enables a 
         music lover to physically experience their favorite songs. 
         The glove does this by decoding a song's rhythm and melody to 
         construct patterns to vibrate into the hand.
@@ -34,6 +74,28 @@
     alt: >-
         TouchMusic glove. White color with coin cell vibration motor and LEDs sewed on it.
     folder: touchmusic
+-   title: "Autonomous Race Car"
+    date: "Spring 2014"
+    description: >-
+        Course: EE192 Mechatronics Design Lab. 
+        This course focused on applying concepts such as digital signal processing, controls and circuits into a hands-on team project. The course finished with a course competition followed by the NATCAR race. Throughout the course we built a line-following race RC car using a line-array camera, custom-made motor board and preciously tuned racing control algorithm. My team placed first in the NATCAR competition with an average speed of 9.06 feet/s
+    img: 'NATCAR.jpg'
+    readmore: false
+    video: 'https://www.youtube.com/watch?v=5SQ9C-32nGY'
+    alt: >-
+        An RC car with custom electronics and a camera mounted on a mast.
+    folder: ee192
+-   title: "Magnetic Levitation and Inverted Pendulum Feedback Control"
+    date: "Fall 2013"
+    description: >-
+        Course: EE128 Feedback Control Systems. 
+        This course covered topics such as root locus, Bode and Nyquist plot, Laplace transforms, State-space control and LQR. The labs had fun components such as designing a PID controller for a mini mag-lev system and a non-linear controller to balance an inverted pendulum. 
+    img: 'inverted_pendulum.jpg'
+    readmore: false
+    video: 'https://www.youtube.com/watch?v=6MEfrPqvptA'
+    alt: >-
+        A cart on a linear rail sliding to control an inverted pendulum upright.
+    folder: ee128
 
 
 
