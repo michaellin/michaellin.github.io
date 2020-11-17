@@ -12,7 +12,7 @@
         tactile sensing and finger force control permits approximately
         4x faster object localization.
     folder: 'lin2021exploratory'   #should match bibtex key
-    pdf: true
+    # pdf: true
     video: 'https://drive.google.com/file/d/1F6790hWTbPcXMCgKPBu95xUe8iOp7zhQ/view?usp=sharing'
     readmore: false
     img: 'exploratoryHand.gif'
