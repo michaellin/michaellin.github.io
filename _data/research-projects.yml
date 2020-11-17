@@ -1,16 +1,13 @@
 -   title: '(In review) Exploratory Hand: Leveraging Safe Contact to Facilitate Manipulation in Cluttered Spaces'
     authors: 'Michael A. Lin, Rachel Thomasson, Gabriela Uribe, Hojung Choi and Mark R. Cutkosky'
     description: >-
-        We present a new gripper and exploration approach
-        that uses an exploratory finger with very low reflected
-        inertia for probing and then grasping objects. Equipped with
-        sensing and force control, the finger allows a robot to identify
-        object properties and locations for a secure grasp without
-        moving very slowly or knocking things over. Employing the finger
-        with robot force/torque and position sensing, the robot can
-        locate contacts using contact normal particle filtering. Adding
-        tactile sensing and finger force control permits approximately
-        4x faster object localization.
+        We present a new gripper and exploration approach that uses an exploratory finger with very low 
+        reflected inertia for probing and grasping objects quickly and safely in unstructured environments. 
+        Equipped with sensing and force control, the gripper allows a robot to leverage contact information 
+        to accurately estimate object location through a particle filtering algorithm and also grasp objects 
+        with location uncertainty based on a contact-first approach.
+        This publication is still under review so it is not yet available, but you can check out the video for
+        more information.
     folder: 'lin2021exploratory'   #should match bibtex key
     # pdf: true
     video: 'https://drive.google.com/file/d/1F6790hWTbPcXMCgKPBu95xUe8iOp7zhQ/view?usp=sharing'
