@@ -1,4 +1,4 @@
--   title: '(In review) Exploratory Hand: Leveraging Safe Contact to Facilitate Manipulation in Cluttered Spaces'
+-   title: 'Exploratory Hand: Leveraging Safe Contact to Facilitate Manipulation in Cluttered Spaces'
     authors: 'Michael A. Lin, Rachel Thomasson, Gabriela Uribe, Hojung Choi and Mark R. Cutkosky'
     description: >-
         We present a new gripper and exploration approach that uses an exploratory finger with very low 
@@ -6,8 +6,7 @@
         Equipped with sensing and force control, the gripper allows a robot to leverage contact information 
         to accurately estimate object location through a particle filtering algorithm and also grasp objects 
         with location uncertainty based on a contact-first approach.
-        This publication is still under review so it is not yet available. Please e-mail me for a copy of the pre-print. 
-        You can also check out the video for more information.
+        This publication is still under review so it is not yet available.
     folder: 'lin2021exploratory'   #should match bibtex key
     # pdf: true
     video: 'https://drive.google.com/file/d/1F6790hWTbPcXMCgKPBu95xUe8iOp7zhQ/view?usp=sharing'
@@ -18,7 +17,7 @@
         and then grasping one of the spice jars.
 
 
--   title: '(In review) A Stretchable Tactile Sleeve for Reaching into Cluttered Spaces'
+-   title: 'A Stretchable Tactile Sleeve for Reaching into Cluttered Spaces'
     authors: 'Alexander M. Gruebele, Michael A. Lin, Dane Brouwer, Shenli Yuan, Andrew Zerbe and Mark R. Cutkosky'
     description: >-
         A highly conformable stretchable sensory

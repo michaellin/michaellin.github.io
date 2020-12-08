@@ -5,29 +5,29 @@ layout: default
 
 	<section>
 		<div class="container">
-				<div class="row pb-3">
-					<h1 class="col-sm-12 intro">
-					{{ page.lead_text }}
-					</h1>
-				</div>
+			<div class="row pb-3">
+				<h1 class="col-sm-12 intro">
+				{{ page.lead_text }}
+				</h1>
+			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-7 text-justify">
 					
 
-					{{ content }}
-				
-                <p>
-                <u>Contact:</u><br> 
-                <a href="mailto:mlinyang@stanford.edu" target="_top" style="text-decoration: none">{{ site.email }}<a>
-               	<!--<br> 
-               	{% include github-button.html %}-->
-               	<br>
-                {% include googleScholar-button.html %}
-	            <br> 
-	            {% if site.twitter_username %}
-	              {% include twitter-follow-button.html %}
-	            {% endif%}
-                </p>
+						{{ content }}
+					
+	                <p>
+	                <u>Contact:</u><br> 
+	                <a href="mailto:mlinyang@stanford.edu" target="_top" style="text-decoration: none">{{ site.email }}<a>
+	               	<!--<br> 
+	               	{% include github-button.html %}-->
+	               	<br>
+	                {% include googleScholar-button.html %}
+		            <br> 
+		            {% if site.twitter_username %}
+		              {% include twitter-follow-button.html %}
+		            {% endif%}
+	                </p>
 
 				</div>
 
@@ -45,8 +45,48 @@ layout: default
 	</section>
 
 	<section>
-		<h2 class="big_top_padding">Latest Research</h2>
+		<div class="container">
+			<h2 class="pt-4 pb-2">Skills</h2>
+			<div class="row pt-1 pb-2 ">
+				<div class="col-sm-12 col-md-3 text-right">
+					Programming
+				</div>
+				<div class="col-sm-12 col-md-9">
+					Python / C++ / C Language / PyTorch / Git / Linux
+				</div>
+			</div>
+			<div class="row pt-1 pb-2">
+				<div class="col-sm-12 col-md-3 text-right">
+					Robotics
+				</div>
+				<div class="col-sm-12 col-md-9">
+					ROS  /  PyBullet  /  RBDL (Rigid Body Dynamics Library)
+				</div>
+			</div>
+			<div class="row pt-1 pb-2">
+				<div class="col-sm-12 col-md-3 text-right">
+					Embedded Systems
+				</div>
+				<div class="col-sm-12 col-md-9">
+					State Machines  /  SPI  /  UART  /  EtherCAT  /  BLE
+				</div>
+			</div>
+			<div class="row pt-1 pb-2">
+				<div class="col-sm-12 col-md-3 text-right">
+					Hardware
+				</div>
+				<div class="col-sm-12 col-md-9">
+					Brushless motor control  /  Circuit design & testing  /  CAD
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<section>
+		<div class="container pb-0 pt-0">
+			<h2 class="pt-5">Latest Research</h2>
 		{% include research-gallery.html %}
+		</div>
 	</section>
 
 
