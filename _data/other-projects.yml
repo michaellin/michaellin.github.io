@@ -59,7 +59,7 @@ Pointer-Generator Networks"
     description: >-
         Course: ME 218A Smart Product Design.
         Designed a two-player arcade game where players interact with different electro-mechanical interfaces and worked together to score points and "stop the leak". One player turned a wrench in a specified pattern and another player moved a bucket to catch the water drops.
-    img: 'ME218a.png'
+    img: 'me218a.png'
     alt: 'A picture of two man playing an arcade game'
     webpage: 'http://stopthedamleak.weebly.com/'
     folder: me218a
