@@ -20,7 +20,7 @@ address1: 'Stanford, CA, 94305'
 address2: ''
 description: "Personal webpage for Michael A. Lin"
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://michaelalin.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.michaelalin.com" # the base hostname & protocol for your site, e.g. http://example.com
 #repository: "michaellin.github.io"
 
 # Outputting
